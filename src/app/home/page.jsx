@@ -1,16 +1,12 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Searchbar from "@/Components/search/search";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.container1}>
-        Homepage
-      </div>
-
-      <div className={styles.container2}>
-        componente
-      </div>
+    <main>
+      <Searchbar/>
+      <div className={styles.container1}>Homepage (children)</div>
     </main>
   );
 }

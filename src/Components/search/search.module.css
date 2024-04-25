@@ -1,0 +1,42 @@
+.searchbar {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    background-color: rgba(36, 36, 36, 0.815);
+  }
+  .search{
+    margin-left: 30%;
+  }
+  .input {
+    height: 20px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.53);
+    margin-right: 5px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .button {
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 20%;
+  }
+  
+  .fotocontainer {
+    margin-left: auto; /* Esto alineará la foto al extremo derecho */
+  }
+  
+  .foto {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    margin-right: 10px;
+  }
+
+  .foto:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 40px 5px black;
+    transform: scale(1.1);
+  }
+  

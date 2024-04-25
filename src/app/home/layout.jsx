@@ -11,10 +11,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={styles.html}>
-      <body className={inter.className}>
-        {children}
-        <p>Footer del layout</p>
-        </body>
+      <body className={styles.body}>  
+
+        <div className={styles.boxnav}>
+          <div className={styles.nav}>
+            <button>Home</button>
+            <button>About</button>
+            <button>My profile</button>
+            <button>Channels</button>
+          </div>
+        </div>
+
+        <div className={styles.boxpage}>
+          {children}
+        </div>
+      </body>
     </html>
   );
 }

@@ -4,9 +4,9 @@ import Searchbar from "@/Components/search/search";
 
 export default function Home() {
   return (
-    <main>
+    <div>
       <Searchbar/>
       <div className={styles.container1}>Homepage (children)</div>
-    </main>
+    </div>
   );
 }

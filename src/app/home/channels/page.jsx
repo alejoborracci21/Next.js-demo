@@ -1,5 +1,7 @@
+import styles from './channels.module.css'
+
 export default function channelspage() {
     return (
-        <div>channels page</div>
+        <div className={styles.container}>Channels page</div>
     )
 }

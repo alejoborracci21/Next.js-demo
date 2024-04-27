@@ -1,12 +1,7 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import Searchbar from "@/Components/search/search";
+import styles from './page.module.css'
 
-export default function Home() {
+export default function Page() {
   return (
-    <div>
-      <Searchbar/>
-      <div className={styles.container1}>Homepage (children)</div>
-    </div>
+        <div className={styles.container}>Homepage</div>
   );
 }

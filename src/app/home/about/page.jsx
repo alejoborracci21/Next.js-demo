@@ -1,8 +1,7 @@
-
-
+import styles from './about.module.css'
 
 export default function aboutpage() {
     return (
-        <div>About page</div>
+        <div className={styles.container}>About page</div>
     )
 }

@@ -1,6 +1,7 @@
+import Link from 'next/link';
 import styles from './search.module.css'
 
-
+const user = false
 
 export default function Searchbar() {
     return (
@@ -17,7 +18,13 @@ export default function Searchbar() {
         </div>
 
         <div className={styles.fotocontainer}>
-          <div className={styles.foto}></div>
+          {user ? (
+            <img className={styles.foto} src={user.image} alt="user" />
+          ) : (
+            <Link href={"/login"}>
+              <img src="login.png" className={styles.foto} alt="login" />
+            </Link>
+          )}
         </div>
       </div>
     );

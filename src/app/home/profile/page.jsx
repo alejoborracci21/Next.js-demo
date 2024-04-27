@@ -1,5 +1,7 @@
+import styles from './profile.module.css'
+
 export default function profilepage() {
     return (
-        <div>profile page</div>
+        <div className={styles.container}>Profile page</div>
     )
 }

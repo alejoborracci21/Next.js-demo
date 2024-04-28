@@ -1,4 +1,5 @@
-'use client';
+'use client'
+
 
 import styles from './video.module.css';
 import ReactPlayer from 'react-player/youtube';

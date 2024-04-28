@@ -1,9 +1,33 @@
-.container{
+
+.container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center; 
   width: 100vw;
   height: 100vh;
-  align-items: center;
+  margin-top: 20%;
+}
+.title{
+  color: rgb(255, 255, 255);
+  width: 10%;
+  margin-left: 2%;
+}
+
+.list {
+  display: flex;
   justify-content: center;
-  background-color: rgba(36, 36, 36, 0.737);
+  align-items: center;
+  width: 85%;
+  margin-left: 15%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.videoContainer {
+  display: flex;
+}
+
+.video {
+  margin-right: 10px;
 }

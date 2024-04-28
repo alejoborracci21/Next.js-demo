@@ -16,12 +16,12 @@
 }
 
 .searchbar {
-  position: absolute;
+  position: fixed;
   width: 100%;
 }
 
 .boxnav {
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
   width: 15vw;
